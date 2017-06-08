@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="songPersenter"
+            type="com.example.syp.musicplayapp.adapter.SongListAdapter" />
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/item_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_music_song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="music Name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/item_music_song_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="music singer" />
+    </LinearLayout>
+</layout>
